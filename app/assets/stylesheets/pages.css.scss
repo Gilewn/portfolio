@@ -1,0 +1,91 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Header */
+.header {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+.nav {
+  margin: 10px;
+  padding: 5px;
+}
+
+.nav .nav_bar {
+  display: inline;
+  float: left;
+}
+
+.nav .name {
+  display: inline;
+  float: right;
+}
+
+.nav_bar li {
+  font-family: "Times New Roman", Times, serif;
+  display: inline;
+  padding: 3px;
+  color: brown;
+}
+
+.name p {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  display: inline;
+  color: brown;
+}
+
+/* Main */
+
+.main {
+  margin-top: -10px;
+  margin-bottom: 5px;
+  padding: 0;
+  height: 400px;
+  background-image: url('http://aaahandymanservice.com/wp-content/uploads/2014/07/wood-background-aaahandyman.jpg');
+}
+
+.main p {
+  font-size: 50px;
+  font-family:"Times New Roman", Times, serif;
+  text-align: center;
+  color: black;
+  padding-top: 70px;
+}
+
+.main a {
+  color: brown;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+  background-color: black;
+}
+
+/* Footer */
+
+.footer {
+  height: 100px;
+  background-color: white;
+}
+
+.footer li {
+  display: inline;
+  padding: 5px;
+  float: right;
+}
+
+.footer p {
+  color: brown;
+  text-align: center;
+}
+
+.footer .tax {
+  color: brown;
+  font-size: 10px;
+	position: relative;
+  bottom: -15px;
+}
