@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
 
   root 'pages#welcome', as: :welcome
 
@@ -9,6 +10,13 @@ Rails.application.routes.draw do
     get '*path', to: 'errors#error_404', via: :all
   end
 
+=======
+  
+  root 'pages#welcome', as: :welcome
+  
+  get 'pages/portfolio' => 'pages#portfolio'
+  
+>>>>>>> 372e2fbc7ec37bd0b6fc59f362deec45192f89fc
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
