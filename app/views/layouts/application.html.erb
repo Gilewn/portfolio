@@ -4,13 +4,40 @@
   <title>Portfolio</title>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application.css', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application.js', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <!--Header Section-->
+<div class='header'>
+    <div class='nav'>
+      <ul class='nav_bar'>
+        <li><a href='#' class='btn'><%= link_to 'Welcome', welcome_url %></a></li>
+        <li><a href='#' class='btn'><%= link_to 'Portfolio', 'pages/portfolio' %></a></li>
+        <li><a href='#' class='btn'><%= link_to 'Blog', 'https://medium.com/' %></a></li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+      <div class='name'>
+        <p>Sir George Kolovos-Gkezerlis</p>
+    </div>
+  </div>
+</div>
 
 <%= yield %>
 
+  <!--Footer-->
+<div class='footer'>
+  <div class='container'>
+   <ul>
+      <li><a href='#'><img src='https://image.flaticon.com/icons/png/128/25/25231.png' alt='github-logo' width='25' height='25'></a></li>
+      <li><a href='#'><img src='https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico' alt='linkedin-logo' width='25' height='25'></a></li>
+    </ul>
+    <p>&copy;Gilewnas</p>
+    <div class='tax'>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    <div class='tax'>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  </div>
+</div>
 </body>
 </html>
