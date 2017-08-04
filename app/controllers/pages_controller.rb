@@ -3,4 +3,6 @@ class PagesController < ApplicationController
   end
   def portfolio
   end
+  def about
+  end
 end

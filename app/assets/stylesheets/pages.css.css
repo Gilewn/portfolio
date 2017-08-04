@@ -104,3 +104,24 @@
 .grid ul li {
   display: inline-block;
 }
+
+/* About Main */
+.about .container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about ul {
+  flex-direction: column;
+  background-color: #000;
+}
+
+.about ul li {
+  color: #aaaaaa;
+  list-style-type: none;
+  background-color: #ac0000;
+}
