@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'tzinfo-data', platforms: [:x64_mingw, :mingw, :mswin]
 
-gem 'coffee-script-source', '1.8.0'
 
 gem 'rails_12factor', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
