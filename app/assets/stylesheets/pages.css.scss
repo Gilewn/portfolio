@@ -14,10 +14,36 @@
   background-color: #191970;
   border: 2px solid #C0C0C0;
   border-radius: 25px;
-  padding: 3px;
+  padding: 0 15px;
 }
 
-/* Main */
+/* Footer */
+
+.footer {
+  height: 100px;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.footer li {
+  display: inline;
+  padding: 5px;
+  float: right;
+}
+
+.footer .copy {
+  color: 	#191970;
+  text-align: right;
+}
+
+.footer .tax {
+  color: 	#191970;
+  font-size: 10px;
+	position: relative;
+  bottom: -15px;
+}
+
+/* Welcome Page */
 
 .jumbotron {
   margin-top: -20px;
@@ -49,33 +75,7 @@
   background-color: #fffff0;
 }
 
-/* Footer */
-
-.footer {
-  height: 100px;
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-}
-
-.footer li {
-  display: inline;
-  padding: 5px;
-  float: right;
-}
-
-.footer .copy {
-  color: 	#191970;
-  text-align: right;
-}
-
-.footer .tax {
-  color: 	#191970;
-  font-size: 10px;
-	position: relative;
-  bottom: -15px;
-}
-
-/* Portfolio Main */
+/* Portfolio Page */
 
 .banner {
   margin: 20px;
@@ -97,24 +97,42 @@
   border: none;
 }
 
-/* About Main */
+/* About Page */
 
-.about .container {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+#memage {
+  width: 300px;
+  height: 450px;
 }
 
-.about ul {
-  flex-direction: column;
-  background-color: #000;
+.about {
+  background-color: #fff;
+  margin: 30px auto;
+  width: 98%;
+  border: 2px solid #C0C0C0;
+  border-radius: 25px;
+  padding-bottom: 20px;
+}
+.about h2 {
+  font-size: 30px;
+  border-bottom: 2px solid #191970;
 }
 
-.about ul li {
-  color: #aaaaaa;
-	list-style-type: none;
-  background-color: #ac0000;
+.about p {
+  font-size: 17px;
+  font-weight: 300;
+}
+ /* Contact Page */
+
+.contact {
+  height: 460px;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 2px solid #191970;
+}
+
+.contact li {
+  list-style: none;
 }
