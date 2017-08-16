@@ -100,6 +100,18 @@
 .grid p {
   text-align: justify;
 }
+.grid a {
+  color: #000;
+}
+
+.grid a:hover {
+  text-decoration: none;
+  color: #2F4F4F;
+}
+
+.grid a:hover .thumbnail img {
+  opacity: 0.5;
+}
 
 /* About Page */
 
