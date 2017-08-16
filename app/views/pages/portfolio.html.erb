@@ -7,9 +7,9 @@
   <body>
    <section class="banner">
      <ul>
-       <li><%= image_tag("pr3_innov_cloud_a.png", alt: "innovation_cloud") %></li>
-       <li><%= image_tag("pr3_innov_cloud_b.png", alt: "innovation_cloud") %></li>
-       <li><%= image_tag("pr4_threadly.png", alt: "threadly")%></li>
+       <li><%= image_tag("broadway.png", alt: "innovation_cloud") %></li>
+       <li><%= image_tag("innovation-cloud.png", alt: "innovation_cloud") %></li>
+       <li><%= image_tag("bolt-network.png", alt: "threadly")%></li>
      </ul>
    </section>
    <script>
@@ -22,42 +22,52 @@
   <ul class="row">
     <div class="col-lg-12">
         <li class="col-lg-4">
-          <%= image_tag("pr1_we_are_br_small.png", alt: "broadway") %>
-          <h3>We are Broadway</h3>
-          <p>This is a project which I don't even remember. But don't be rush I will...</p>
+          <%= image_tag("broadway_small.png", alt: "broadway") %>
+          <h3>Broadway</h3>
+          <p>A very simple start up project which contains only a home page.
+          On rails I have created a controller for the page, an action and a root route.
+        Also some CSS styles of my choice.</p>
         </li>
       <li class="col-lg-4">
-        <%= image_tag("pr2_bolt_net_small.png", alt: "bolt") %>
-        <h3>We are Broadway</h3>
-        <p>This is a project which I don't even remember. But don't be rush I will...</p>
+        <%= image_tag("bolt-network_small.png", alt: "bolt-network") %>
+        <h3>Bolt Network</h3>
+        <p>Also a project with simple tasks. This project has an extra page (About) and two links
+           to connect the home page with the about page.</p>
       </li>
       <li class="col-lg-4">
-        <%= image_tag("pr3_innov_cloud_a_small.png", alt: "innovation_cloud")%>
-        <h3>We are Broadway</h3>
-        <p>This is a project which I don't even remember. But don't be rush I will...</p>
+        <%= image_tag("innovation-cloud_small.png", alt: "innovation-cloud")%>
+        <h3>Innovation Cloud</h3>
+        <p>In this project a model is added (Signups),a POST request to save the emails, a resource route for signups
+        and a Thank you page after the signup is saved.</p>
       </li>
     </div>
   </ul>
   <ul class="row">
     <div class="col-lg-12">
       <li class="col-lg-4">
-        <%= image_tag("pr3_innov_cloud_b_small.png", alt: "innovation_cloud") %>
-        <h3>We are Broadway</h3>
-        <p>This is a project which I don't even remember. But don't be rush I will...</p>
+        <%= image_tag("threadly_small.png", alt: "threadly") %>
+        <h3>Threadly</h3>
+        <p>One page to share comments. Each comment is captured immediately after it is saved
+           and you have the ability to write the next one. A model named Posts is created,
+            with two instance variables at the Posts controller @new_post and @all_posts.
+          The rest is CSS.</p>
       </li>
       <li class="col-lg-4">
-        <%= image_tag("pr4_threadly_small.png", alt: "threadly") %>
-        <h3>We are Broadway</h3>
-        <p>This is a project which I don't even remember. But don't be rush I will...</p>
+        <%= image_tag("bookmarks_small.png", alt: "bookmarks") %>
+        <h3>Bookmarks</h3>
+        <p>A project to learn associations. I have created two models (books,reviews) and associated them with
+        the has_many/belongs_to associations, then I created two views (index,show)
+         one with a list of all books and one with each book separately with its reviews. Not much CSS style.</p>
       </li>
       <li class="col-lg-4">
-        <%= image_tag("pr5_bookmarks_a_small.png", alt: "bookmarks")%>
-        <h3>We are Broadway</h3>
-        <p>This is a project which I don't even remember. But don't be rush I will...</p>
+        <%= image_tag("bass-music_small.png", alt: "bass-music")%>
+        <h3>Bass Music</h3>
+        <p>Like Bookmarks, instead of books and reviews, now we have albums and tracks.A little prettier,
+           but not CSS style too.</p>
       </li>
     </div>
   </ul>
-  <ul class="row">
+  <!--<ul class="row">
     <div class="col-lg-12">
       <li class="col-lg-4">
         <%= image_tag("pr5_bookmarks_b_small.png", alt: "bookmarks") %>
@@ -75,7 +85,7 @@
         <p>This is a project which I don't even remember. But don't be rush I will...</p>
       </li>
     </div>
-  </ul>
+  </ul>-->
 </div>
 
 </body>
