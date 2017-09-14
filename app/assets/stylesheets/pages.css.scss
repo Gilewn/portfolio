@@ -8,7 +8,7 @@
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   display: inline;
-  color: #DAA520;
+  color: #C0C0C0;
   font-size: 20px;
   float: right;
   background-color: #191970;
@@ -63,6 +63,7 @@
 
 .jumbotron h1 {
   color: #fffff0;
+  font-size: 40px;
 }
 
 .highlight {
@@ -79,6 +80,11 @@
 
 .banner {
   margin: 20px;
+}
+
+.banner h2 {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .banner li {
